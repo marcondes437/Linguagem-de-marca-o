@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Estudantes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        thead {
+            background-color: #333;
+        }
+
+        thead th {
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        
+
+        tfoot td {
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Lista de Estudantes</caption>
+        
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Matéria Favorita</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Ana Silva</td>
+                <td>20</td>
+                <td>Matemática</td>
+            </tr>
+            <tr>
+                <td>Carlos Santos</td>
+                <td>22</td>
+                <td>Física</td>
+            </tr>
+            <tr>
+                <td>Maria Oliveira</td>
+                <td>21</td>
+                <td>Química</td>
+            </tr>
+            <tr>
+                <td>João Pereira</td>
+                <td>23</td>
+                <td>História</td>
+            </tr>
+            <tr>
+                <td>Lucia Costa</td>
+                <td>19</td>
+                <td>Biologia</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="3">Total: 5 estudantes</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
